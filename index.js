@@ -64,8 +64,8 @@ class BlockChain {
             if (currentBlock.prevHash !== prevBlock.hash) {
                 return false;
             }
-
         }
+        return true;
     }
 
 }
